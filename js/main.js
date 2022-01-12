@@ -22,7 +22,8 @@ $(document).ready(function () {
   $(".slider-content").slick({
     slidesToShow: slidershow,
     slidesToScroll: 1,
-    autoplay: auto,
+   // autoplay: auto,
+    centerMode: true,
     autoplaySpeed: 2000,
     infinite: true,
     prevArrow: `<div class="news__arrow news__arrow_dir_left">
