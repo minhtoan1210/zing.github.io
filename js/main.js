@@ -32,4 +32,8 @@ $(document).ready(function () {
     $(this).toggleClass("active");
     $(".header-sub-menu").toggleClass("show");
   });
+  $(".dropdown__selected").click(function (e) { 
+    e.preventDefault();
+    $("ul.dropdown__list").toggleClass("activemultimedia");
+  });
 });
