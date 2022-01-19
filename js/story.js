@@ -25,7 +25,7 @@ $(document).ready(function () {
   //  {
   //   a = 3;
   //  }
-    $(".page-detailstory").css('marginTop',`${height}px`);
+    $(".page_story").css('marginTop',`${height}px`);
     $('.header__menu>ul>li.dots').click(function (e) { 
       e.preventDefault();
       $(this).toggleClass("active");

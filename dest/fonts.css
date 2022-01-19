@@ -63,3 +63,28 @@
     font-style: normal;
     font-display: fallback;
 }
+
+@font-face {
+    font-family: "utma";
+    src: url("../fonts/UTMAurora.woff2") format("woff2"),
+        url("../fonts/UTMAurora.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: "utmn";
+    src: url("../fonts/UTMNeoSansIntel.woff2") format("woff2"),
+        url("../fonts/UTMNeoSansIntel.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: "utmi";
+    src: url("../fonts/UTMImpact.woff2") format("woff2"),
+        url("../fonts/UTMImpact.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
